@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@100&family=Prata&display=swap');
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.widgetContainer{
+  padding: 48px 0px;
+  border-radius: 15px;
+  width: 15%;
+  height: auto;
+  background-color: rgba(50,93,110,255);
+  margin: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: rgb(41, 75, 88);
+  padding: 32px;
+}
+h1{
+  font-family: "Prata";
+  font-size: 3rem;
+}
+
+h2{
+  font-family: "Prata";
+  font-size: 2rem;
+}
+
+code{
+  background-color: rgb(255, 255, 255);
+  padding: 16px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  border-radius: 6px;
+  text-align: left;
+}
+
+.documentation{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding: 48px;
+}
+
+li{
+  text-align: left;
+}
+
+a{
+  color: black;
+}
+@media screen and (max-width:1250px) {
+  .App{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+  }
+  .widgetContainer{
+    width: 30%;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .App{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+  }
+  .widgetContainer{
+    width: 45%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .App{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+  }
+  .widgetContainer{
+    width: 80%;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+  .documentation{
+    align-items: center;
+  }
+}
+
+
+
+
+
